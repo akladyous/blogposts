@@ -1,5 +1,5 @@
 ---
-title: Personal Blog
+title: Blog Two
 data: 2023-10-05
 ---
 
