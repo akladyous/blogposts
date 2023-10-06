@@ -6,6 +6,10 @@ tags: [javascript, tips]
 
 # blogposts
 
+```js
+const name = 'John Doe';
+```
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ducimus porro quidem, magni nisi
 ad iure. Corrupti nisi reiciendis esse alias eveniet nostrum tempore ut! Doloremque labore magni
 suscipit neque? At, officia! Quae temporibus suscipit nam omnis voluptatem dignissimos commodi illum

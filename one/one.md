@@ -9,7 +9,7 @@ tags: [javascript, frontend]
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ducimus porro quidem, magni nisi
 ad iure.
 
-```js
+```ts
 export default async function BlogPosts() {
   console.group('Blog');
   const posts = await getPostsMeta('blogposts');

@@ -7,8 +7,14 @@ tags: [frontend, react.js, state management]
 # blogposts
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ducimus porro quidem, magni nisi
-ad iure. Corrupti nisi reiciendis esse alias eveniet nostrum tempore ut! Doloremque labore magni
-suscipit neque? At, officia! Quae temporibus suscipit nam omnis voluptatem dignissimos commodi illum
+ad iure.
+
+```js
+console.log('Advanced State Management in React');
+```
+
+Corrupti nisi reiciendis esse alias eveniet nostrum tempore ut! Doloremque labore magni suscipit
+neque? At, officia! Quae temporibus suscipit nam omnis voluptatem dignissimos commodi illum
 voluptatibus aperiam, alias, nihil in ipsam quia labore velit sint sit facere facilis aliquam quas
 quaerat saepe amet optio. Ex pariatur eaque sapiente architecto neque exercitationem, fuga officia
 saepe, ipsam quae incidunt corrupti, tempore maiores! Nobis similique, repellat earum, sint ullam ea
