@@ -1,7 +1,7 @@
 ---
-title: Blog Two
-date: 2023-10-02
-tags: ['general', 'science']
+title: Personal Blog
+date: 2023-10-03
+tags: [general, frontend, react.js]
 ---
 
 # blogposts
