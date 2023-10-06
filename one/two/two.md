@@ -1,7 +1,7 @@
 ---
-title: Mastering JavaScript: Tips and Tricks
+title: Mastering JavaScript - Tips and Tricks
 date: 2023-10-02
-tags: ['general', 'science']
+tags: [javascript, tips]
 ---
 
 # blogposts

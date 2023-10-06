@@ -1,7 +1,7 @@
 ---
-title: Styling in React: CSS-in-JS vs. CSS Preprocessors
+title: CSS-in-JS vs. CSS Preprocessors
 date: 2023-10-07
-tags: [food, cuscine, italian food]
+tags: [react.js, styling, css]
 ---
 
 # blogposts

@@ -1,7 +1,7 @@
 ---
 title: The Art of Web Development
 date: 2023-10-01
-tags: ['general']
+tags: [javascript, frontend]
 ---
 
 # blogposts

@@ -1,7 +1,7 @@
 ---
-title: React Hooks: State and Side Effects Simplified
+title: State and Side Effects Simplified
 date: 2023-10-06
-tags: [design, ux-ui, flutter]
+tags: [react.js, useEffect]
 ---
 
 # blogposts

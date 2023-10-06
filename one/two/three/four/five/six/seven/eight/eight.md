@@ -1,7 +1,7 @@
 ---
-title: React Hooks: State and Side Effects Simplified
+title: State and Side Effects Simplified
 date: 2023-10-08
-tags: [node.js, nuxt.js]
+tags: [frontend, React Hooks]
 ---
 
 # blogposts

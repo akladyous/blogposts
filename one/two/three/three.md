@@ -1,7 +1,7 @@
 ---
 title: Advanced State Management in React
 date: 2023-10-03
-tags: [general, frontend, react.js]
+tags: [frontend, react.js, state management]
 ---
 
 # blogposts

@@ -1,7 +1,7 @@
 ---
 title: Optimizing Performance in React Applications
 date: 2023-10-09
-tags: [general]
+tags: [React.js]
 ---
 
 # blogposts

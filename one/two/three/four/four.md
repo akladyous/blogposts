@@ -1,7 +1,7 @@
 ---
-title: React Component Lifecycle: Explained
+title: React Component Lifecycle Explained
 date: 2023-10-04
-tags: [general, backend, ruby on rails]
+tags: [react.js, react state lifecycle]
 ---
 
 # blogposts
