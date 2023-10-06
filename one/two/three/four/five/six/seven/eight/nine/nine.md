@@ -1,5 +1,5 @@
 ---
-title: Personal Blog
+title: Optimizing Performance in React Applications
 date: 2023-10-09
 tags: [general]
 ---

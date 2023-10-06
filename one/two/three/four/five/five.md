@@ -1,5 +1,5 @@
 ---
-title: Personal Blog
+title: Styling in React: CSS-in-JS vs. CSS Preprocessors
 date: 2023-10-05
 tags: [general, design, figma]
 ---

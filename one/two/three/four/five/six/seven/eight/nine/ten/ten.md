@@ -1,7 +1,7 @@
 ---
-title: Personal Blog
+title: Navigating Single-Page Applications
 date: 2023-10-10
-tags: [general]
+tags: [react, React Router DOM]
 ---
 
 # blogposts

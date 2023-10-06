@@ -1,5 +1,5 @@
 ---
-title: Personal Blog
+title: React Hooks: State and Side Effects Simplified
 date: 2023-10-06
 tags: [design, ux-ui, flutter]
 ---

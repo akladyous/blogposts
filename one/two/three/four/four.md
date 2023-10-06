@@ -1,5 +1,5 @@
 ---
-title: Personal Blog
+title: React Component Lifecycle: Explained
 date: 2023-10-04
 tags: [general, backend, ruby on rails]
 ---
