@@ -6,7 +6,6 @@ tags: [react, React Router DOM]
 
 # blogposts
 
-![React Image](../../images/react-js.png)
 ![My Image](https://raw.githubusercontent.com/akladyous/blogposts/main/images/react-js.png)
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ducimus porro quidem, magni nisi
