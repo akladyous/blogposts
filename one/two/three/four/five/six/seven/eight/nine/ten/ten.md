@@ -6,7 +6,8 @@ tags: [react, React Router DOM]
 
 # blogposts
 
-![My Image](https://raw.githubusercontent.com/akladyous/blogposts/main/images/react-js.png)
+<CustomImage src="https://raw.githubusercontent.com/akladyous/blogposts/main/images/react-js.png" alt="React.JS" />
+<!-- ![My Image](https://raw.githubusercontent.com/akladyous/blogposts/main/images/react-js.png) -->
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora ducimus porro quidem, magni nisi
 ad iure. Corrupti nisi reiciendis esse alias eveniet nostrum tempore ut! Doloremque labore magni
