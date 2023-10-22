@@ -172,6 +172,8 @@ It would be handy to change our template so that it generates an email content w
 <p>Thanks for joining and have a great day!</p>
 ```
 
+[link on medium](https://medium.com/@akladyous/ruby-on-rails-action-mailer-configuration-6d0cfc00b871)
+
 ##### Conclusion
 
 It doesn’t really matter if you are building a consumer or business application, you’re going to
