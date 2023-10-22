@@ -24,7 +24,7 @@ Unlike the uncontrolled component, the input form element in the controlled comp
 the component rather than the DOM. It takes its current value through props. The changes are
 notified through useState Hook. Let’s consider an example to understand it in a better way.
 
-```ts
+```javascript
 import { useState } from 'react';
 export default function ControlledComponent() {
   const [name, setName] = useState('');
@@ -68,11 +68,11 @@ export default function ControlledComponent() {
 }
 ```
 
-The input field is Controlled because React sets its value from the state <input value={value} … />.
-Whenever we type into the input field, the onChange handler updates the state with the input’s value
-accessed from the event object. The value state variable is the source of truth. When we need to
-access the value entered by the user into the input field, we have to read the value from the state
-variable. The Controlled components can help access the value of any input field.
+The input field is Controlled because React sets its value from the state "<input value={value} …
+/>". Whenever we type into the input field, the onChange handler updates the state with the input’s
+value accessed from the event object. The value state variable is the source of truth. When we need
+to access the value entered by the user into the input field, we have to read the value from the
+state variable. The Controlled components can help access the value of any input field.
 
 ## Uncontrolled component
 
