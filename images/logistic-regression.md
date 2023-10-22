@@ -68,7 +68,9 @@ real input {**_t_**} and outputs a value between **_zero_** and **_one_**. For t
 interpreted as taking input log-odds and having output probability. the logistic “sigmoid” function
 is defined as follow:
 
-$$\sigma(x) = \frac{1}{1 + e^{-x}}$$
+$$
+\sigma(x) = \frac{1}{1 + e^{-x}}
+$$
 
 To understand how sigmoid function squashes the values within the range, let’s visualize the graph
 of the sigmoid function.
