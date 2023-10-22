@@ -64,7 +64,7 @@ answers on an opinion poll (Agree/Disagree/Neutral), or scores on a test (Poor/A
 ## What is Sigmoid Function
 
 In order to map predicted values to probabilities, we use the sigmoid function. The function map any
-real input {**_t_**} and outputs a value between **_zero_** and **_one_**. For the logit, this is
+real input **_t_** and outputs a value between **_zero_** and **_one_**. For the logit, this is
 interpreted as taking input log-odds and having output probability. the logistic “sigmoid” function
 is defined as follow:
 
