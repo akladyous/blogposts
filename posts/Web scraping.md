@@ -1,5 +1,5 @@
 ---
-title: Web scraping — News Articles using NewsAPI
+title: Web scraping
 date: 2021-06-12
 tags: ['python', 'Web scraping', 'NewsAPI']
 ---
