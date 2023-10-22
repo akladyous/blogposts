@@ -80,6 +80,7 @@ but F1 is usually more useful than accuracy, especially if you have an uneven cl
 Accuracy works best if false positives and false negatives have similar cost. If the cost of false
 positives and false negatives are very different, it’s better to look at both Precision and Recall.
 In our case, F1 score is 0.701
+
 $$\text{F1 Score} = \frac{2 \cdot (Precision \cdot Recall)}{Precision + Recall}$$
 
 Thank you for reading! ❤️
