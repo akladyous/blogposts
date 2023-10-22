@@ -6,7 +6,7 @@ tags: ['action mailer', 'Ruby On Rails', 'ActionMailer', 'gmail']
 
 # How does Action Mailer work?
 
-![action mailer](/images/action-mailer-config.png)
+![action mailer](/images/rails-action-mailer-configuration.png)
 
 ### Action Mailer overview
 
