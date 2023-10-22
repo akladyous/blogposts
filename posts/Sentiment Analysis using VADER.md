@@ -99,9 +99,9 @@ Notice that the pos, neu and neg probabilities add up to 1. Also, the compound s
 useful metric in case we want a single measure of sentiment. Typical threshold values are the
 following:
 
-- positive: compound score >= 0.05
+- positive: compound score ≥ 0.05
 - neutral: compound score between -0.05 and 0.05
-- negative: compound score <= -0.05
+- negative: compound score ≤ -0.05
 
 Instantiate a new object with NLTK SentimentIntensityAnalyzer
 
