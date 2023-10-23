@@ -1,10 +1,10 @@
 ---
-title: Ruby on Rails Action Mailer Configuration
+title: Rails Action Mailer Configuration
 date: 2021-06-21
 tags: ['action mailer', 'Ruby On Rails', 'ActionMailer', 'gmail']
 ---
 
-# How does Action Mailer work?
+# Rails Action Mailer Configuration
 
 ![action mailer](/images/rails-action-mailer-configuration.png)
 
