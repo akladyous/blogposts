@@ -1,12 +1,14 @@
 ---
-title: Confusion Matrix
+title: demystifying the confusion matrix
 date: 2021-06-13
-tags: ['Data Science', 'Python', 'Accuracy', 'Precision']
+tags: ['Data Science', 'Accuracy', 'Precision']
 ---
 
-# Confusion Matrix
+# Demystifying the Confusion Matrix
 
-![Alt text](/images/confusion-matrix.png)
+![Alt text](/images/demystifying-the-confusion-matrix.png)
+
+## What is Confusion Matrix
 
 A confusion matrix is a table that is often used to describe the performance of a classification
 model, the result obtained from the confusion matrix is obtained by comparing the result of the test
@@ -76,5 +78,7 @@ but F1 is usually more useful than accuracy, especially if you have an uneven cl
 Accuracy works best if false positives and false negatives have similar cost. If the cost of false
 positives and false negatives are very different, it’s better to look at both Precision and Recall.
 In our case, F1 score is 0.701
+
+[For a Deeper Dive, Check the Original Post 🔗](https://medium.com/@akladyous/confusion-matrix-9d1ac93deb6d)
 
 Thank you for reading! ❤️

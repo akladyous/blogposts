@@ -125,6 +125,8 @@ export default function UncontrolledComponent() {
 Both the controlled and uncontrolled form fields have their merit. Evaluate your specific situation
 and pick the approach — what works for you is good enough.
 
+[For a Deeper Dive, Check the Original Post 🔗](https://medium.com/@akladyous/react-controlled-vs-uncontrolled-components-c803e197f7d3)
+
 As always, thanks for reading!
 
 Thank you for reading! ❤️

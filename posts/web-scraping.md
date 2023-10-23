@@ -8,6 +8,8 @@ tags: ['python', 'Web scraping', 'NewsAPI']
 
 ![Alt text](/images/web-scraping.png)
 
+## Unlocking the Power of Web Scraping for Data Collection and Analysis
+
 Web Scraping is a technique employed to gather large amounts of data from websites whereby the data
 is extracted and stored into a structured format. such technique is widely used for a range of
 purposes, including market analysis, machine learning, news tracking and financial data aggregation.

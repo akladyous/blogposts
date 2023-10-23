@@ -8,7 +8,7 @@ tags: ['Data Science', 'Natural Language Processing', 'VADER', 'nltk']
 
 ![Alt text](/images/sentiment-analysis-vader.png)
 
-## Introduction
+## Understanding Sentiment Analysis in Natural Language Processing
 
 Sentiment Analysis is a supervised Machine Learning technique used to determine if a chunk of text
 is positive, negative or neutral. In text analytics, natural language processing (NLP) and machine

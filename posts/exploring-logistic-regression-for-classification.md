@@ -1,12 +1,12 @@
 ---
-title: Logistic Regression
+title: exploring logistic regression for classification
 date: 2021-06-12
 tags: ['python', 'classification', 'Machine Learning']
 ---
 
-# Logistic Regression
+# Exploring Logistic Regression for Classification
 
-![Alt text](/images/logistic-regression.png)
+![Alt text](/images/exploring-logistic-regression-for-classification.png)
 
 ## Introduction
 
@@ -115,5 +115,7 @@ variance of these estimates, which counteracts the effect of codependencies.
 
 In this blog I presented the basic concept of logistic regression. I hope this blog was helpful and
 motivated you enough to get interested in the topic.
+
+[For a Deeper Dive, Check the Original Post 🔗](https://akladyous.medium.com/logistic-regression-7885cebd3699)
 
 Thank you for reading! ❤️

@@ -12,9 +12,10 @@ tags: ['react.js', 'react batching', 'react concurrency']
 
 React is known for its efficient rendering process, and one of the key techniques it utilizes is
 batching. Batching refers to the process of combining multiple updates into a single update,
-minimizing the number of times the real DOM needs to be updated. In this article, we will explore
-how batching works under the hood in React and its impact on performance. We will also provide
-examples to demonstrate the concept.
+minimizing the number of times the real DOM needs to be updated.
+
+In this article, we will explore how batching works under the hood in React and its impact on
+performance. We will also provide examples to demonstrate the concept.
 
 # Understanding Batching
 
@@ -98,5 +99,7 @@ In this article, we discussed the concept of batching in React, its implementati
 transactions, and its benefits in terms of performance. We provided examples to illustrate how
 batching works and explained the significance of React Fiber’s incremental updates. By leveraging
 batching effectively, developers can build highly performant and responsive React applications.
+
+[For a Deeper Dive, Check the Original Post 🔗](https://medium.com/@akladyous/batching-in-react-cc0c323b3a1c)
 
 Thank you for reading! ❤️

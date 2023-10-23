@@ -1,14 +1,14 @@
 ---
-title: Ruby on Rails Scopes
-date: 2023-10-05
-tags: ['Ruby on Rails', '', 'Rails Scopes']
+title: understanding scopes in rails
+date: 2022-06-09
+tags: ['Ruby on Rails', 'active model', 'Rails Scopes']
 ---
 
-# Ruby on Rails Scopes
+## Understanding Scopes in Rails
 
-## What is scope in Rails?
+![Alt text](/images/understanding-scopes-in-rails.png)
 
-![Alt text](/images/ruby-on-rails-scopes.png)
+## Understanding Rails Scopes and Class Methods for Efficient Database Queries
 
 Scopes in Rails are special methods to run SQL queries that you can build in any rails model. A
 scope will always return an ActiveRecord::Relation object, even if the conditional evaluates to
@@ -95,5 +95,7 @@ This is very important to note that the scope is intended to return an ActiveRec
 which is composable with other scopes. In short scopes should be chainable.
 
 Hope this article helped you understand the ActiveRecord Scoping method and its uses.
+
+[Explore in Depth by Sharing this Post 📤](https://medium.com/@akladyous/ruby-on-rails-scopes-35e3565d8d79)
 
 Thank you for reading! ❤️

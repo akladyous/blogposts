@@ -1,6 +1,6 @@
 ---
 title: Ruby on Rails Action Mailer Configuration
-date: 2023-10-05
+date: 2021-06-21
 tags: ['action mailer', 'Ruby On Rails', 'ActionMailer', 'gmail']
 ---
 
@@ -178,5 +178,7 @@ It would be handy to change our template so that it generates an email content w
 
 It doesn’t really matter if you are building a consumer or business application, you’re going to
 need to send emails to your users as some point.
+
+[Unlock Further Insights by Sharing 🔗](https://medium.com/@akladyous/ruby-on-rails-action-mailer-configuration-6d0cfc00b871)
 
 Thank you for reading! ❤️
