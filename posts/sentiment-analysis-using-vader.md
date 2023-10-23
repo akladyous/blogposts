@@ -6,7 +6,7 @@ tags: ['Data Science', 'Natural Language Processing', 'VADER', 'nltk']
 
 # Sentiment Analysis using VADER
 
-![Alt text](/images/sentiment-analysis-vader.png)
+![Alt text](/images/sentiment-analysis-using-vader.png)
 
 ## Understanding Sentiment Analysis in Natural Language Processing
 
