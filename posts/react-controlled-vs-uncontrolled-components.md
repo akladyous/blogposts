@@ -1,7 +1,11 @@
 ---
 title: react controlled vs uncontrolled components
 date: 2021-12-13
+pubDate: 2021-12-13
 tags: ['react.js', 'controlled components', 'un controlled components']
+link:
+imageUrl:
+description:
 ---
 
 # React Controlled vs Uncontrolled Components

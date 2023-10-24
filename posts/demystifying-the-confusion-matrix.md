@@ -1,7 +1,11 @@
 ---
 title: demystifying the confusion matrix
 date: 2021-06-13
-tags: ['Data Science', 'Accuracy', 'Precision']
+pubDate: 2021-06-13
+tags: ['data science', 'accuracy', 'precision']
+link:
+imageUrl:
+description:
 ---
 
 # Demystifying the Confusion Matrix

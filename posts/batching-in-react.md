@@ -1,7 +1,11 @@
 ---
 title: batching in react
 date: 2023-06-24
+pubDate: 2023-06-24
 tags: ['react.js', 'react batching', 'react concurrency']
+link:
+imageUrl:
+description:
 ---
 
 # Optimizing UI Updates for Performance
