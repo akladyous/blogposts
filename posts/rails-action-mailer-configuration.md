@@ -3,8 +3,6 @@ title: rails action mailer configuration
 date: 2021-06-21
 pubDate: 2021-06-21
 tags: ['action mailer', 'Ruby On Rails', 'ActionMailer', 'gmail']
-link:
-imageUrl:
 description:
 ---
 

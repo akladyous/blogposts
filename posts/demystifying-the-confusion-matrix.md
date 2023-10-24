@@ -3,8 +3,6 @@ title: demystifying the confusion matrix
 date: 2021-06-13
 pubDate: 2021-06-13
 tags: ['data science', 'accuracy', 'precision']
-link:
-imageUrl:
 description:
 ---
 

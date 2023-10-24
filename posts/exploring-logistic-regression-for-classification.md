@@ -3,8 +3,6 @@ title: exploring logistic regression for classification
 date: 2021-06-12
 pubDate: 2021-06-12
 tags: ['python', 'classification', 'Machine Learning']
-link:
-imageUrl:
 description:
 ---
 

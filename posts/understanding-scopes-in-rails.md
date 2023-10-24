@@ -3,8 +3,6 @@ title: understanding scopes in rails
 date: 2022-06-09
 pubDate: 2022-06-09
 tags: ['Ruby on Rails', 'active model', 'Rails Scopes']
-link:
-imageUrl:
 description:
 ---
 
