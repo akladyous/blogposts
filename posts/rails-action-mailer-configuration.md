@@ -1,5 +1,5 @@
 ---
-title: Rails Action Mailer Configuration
+title: rails action mailer configuration
 date: 2021-06-21
 tags: ['action mailer', 'Ruby On Rails', 'ActionMailer', 'gmail']
 ---

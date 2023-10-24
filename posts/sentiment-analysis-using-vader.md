@@ -1,5 +1,5 @@
 ---
-title: Sentiment Analysis using VADER
+title: sentiment analysis using vader
 date: 2023-10-05
 tags: ['Data Science', 'Natural Language Processing', 'VADER', 'nltk']
 ---

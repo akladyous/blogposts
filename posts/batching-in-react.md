@@ -1,5 +1,5 @@
 ---
-title: Batching in React
+title: batching in react
 date: 2023-06-24
 tags: ['react.js', 'react batching', 'react concurrency']
 ---
