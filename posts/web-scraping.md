@@ -2,7 +2,7 @@
 title: web scraping
 date: 2021-06-12
 pubDate: 2021-06-12
-tags: ['python', 'Web scraping', 'NewsAPI']
+tags: ['python', 'Web scraping']
 description:
 ---
 
