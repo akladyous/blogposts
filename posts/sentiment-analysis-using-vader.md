@@ -4,7 +4,8 @@ date: 2023-10-05
 pubDate: 2023-10-05
 tags: ['data science', 'natural language processing']
 description:
-"Dive into Sentiment Analysis: Uncover customer opinions with NLP and ML. Use VADER for text classification and data-driven insights."
+  Uncover customer opinions with NLP and ML. Use VADER for text classification and data-driven
+  insights.
 ---
 
 # Sentiment Analysis using VADER

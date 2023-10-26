@@ -4,8 +4,8 @@ date: 2021-06-12
 pubDate: 2021-06-12
 tags: ['classification', 'Machine Learning']
 description:
-  'Exploring Logistic Regression: Understand the fundamentals of logistic regression and its
-  applications in classification problems.'
+  Understand the fundamentals of logistic regression and its applications in classification
+  problems.
 ---
 
 # Exploring Logistic Regression for Classification

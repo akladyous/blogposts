@@ -3,9 +3,7 @@ title: batching in react
 date: 2023-06-24
 pubDate: 2023-06-24
 tags: ['react.js', 'concurrency']
-description:
-  "Explore React's Batching for Improved UI Performance: Discover how React enhances performance by
-  batching UI updates."
+description: Discover React's Batching, Enhancing UI Performance with Update Batching
 ---
 
 # Optimizing UI Updates for Performance

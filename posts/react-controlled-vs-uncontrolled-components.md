@@ -4,7 +4,7 @@ date: 2021-12-13
 pubDate: 2021-12-13
 tags: ['react.js']
 description:
-"React Form Handling: Explore Controlled Components for efficient data manipulation in React."
+  React Form Handling, Explore Controlled Components for efficient data manipulation in React.
 ---
 
 # React Controlled vs Uncontrolled Components
