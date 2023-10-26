@@ -2,8 +2,10 @@
 title: web scraping
 date: 2021-06-12
 pubDate: 2021-06-12
-tags: ['python', 'Web scraping']
+tags: ['python', 'web scraping']
 description:
+  'Master Web Scraping with Python: Extract data from websites for various applications using
+  libraries like NEWSAPI. Essential for data scientists!'
 ---
 
 # Web scraping — News Articles using NewsAPI

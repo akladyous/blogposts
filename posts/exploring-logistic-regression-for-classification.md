@@ -2,8 +2,10 @@
 title: exploring logistic regression for classification
 date: 2021-06-12
 pubDate: 2021-06-12
-tags: ['python', 'classification', 'Machine Learning']
+tags: ['classification', 'Machine Learning']
 description:
+  'Exploring Logistic Regression: Understand the fundamentals of logistic regression and its
+  applications in classification problems.'
 ---
 
 # Exploring Logistic Regression for Classification

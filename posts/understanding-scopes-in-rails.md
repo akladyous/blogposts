@@ -2,8 +2,10 @@
 title: understanding scopes in rails
 date: 2022-06-09
 pubDate: 2022-06-09
-tags: ['Ruby on Rails', 'active model']
+tags: ['ruby on rails', 'active model']
 description:
+  'Unlock Rails Scopes: Efficiently filter, sort, and group data in your application. Use scopes for
+  organized and D.R.Y. ActiveRecord calls, ensuring fast and precise results.'
 ---
 
 ## Understanding Scopes in Rails

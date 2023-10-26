@@ -4,6 +4,8 @@ date: 2021-06-13
 pubDate: 2021-06-13
 tags: ['data science', 'classification']
 description:
+  'Decoding the Confusion Matrix: Understand the significance of a confusion matrix and its role in
+  assessing classification model performance.'
 ---
 
 # Demystifying the Confusion Matrix

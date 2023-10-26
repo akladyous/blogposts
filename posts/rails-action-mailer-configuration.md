@@ -2,8 +2,9 @@
 title: rails action mailer configuration
 date: 2021-06-21
 pubDate: 2021-06-21
-tags: ['Ruby On Rails', 'ActionMailer']
+tags: ['ruby on rails', 'actionmailer']
 description:
+"Action Mailer in Rails: Learn how to set up Action Mailer for sending emails via Gmail and SendGrid with step-by-step guidance."
 ---
 
 # Rails Action Mailer Configuration
