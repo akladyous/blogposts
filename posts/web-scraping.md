@@ -19,7 +19,7 @@ The ability of web scraping is an important skill for any data scientist to have
 
 There are many different approaches for getting data from the web such as writing a custom crawler
 from scratch, or by using one of the many existing libraries that make it absolutely easy to create
-a web scraping tool in Python.
+a web scraping tool in Python
 
 In this Python tutorial we will go through a simple example of how to scrap a website to gather news
 articles and create simple applications using NEWSAPI library.
