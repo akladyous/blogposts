@@ -3,7 +3,7 @@ title: web scraping
 date: 2021-06-12
 pubDate: 2021-06-12
 tags: ['python', 'web scraping']
-description: Extract data from websites with ease using NEWSAPI and boost your data science skills.
+description: Extract data from websites with ease using NEWSAPI and boost your data science skills
 ---
 
 # Web scraping — News Articles using NewsAPI
