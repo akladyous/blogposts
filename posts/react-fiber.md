@@ -18,7 +18,7 @@ React Fiber is a revolutionary feature in the React library that aims to signifi
 performance and rendering efficiency of React applications. At the heart of Fiber lies the
 reconciliation process, a powerful mechanism that efficiently updates the user interface based on
 changes in application state. In this blog, we will delve into the concept of Fiber trees and
-explore how the reconciliation process works
+explore how the reconciliation process works...
 
 ## Reconciliation Stack
 
