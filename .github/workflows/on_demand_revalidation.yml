@@ -27,4 +27,4 @@ jobs:
       - name: echo token
         run: echo "token is ${{ secrets.REVALIDATION_TOKEN }} "
       - name: echo var
-        run: echo "token is ${{ secrets.PROVA }} "
+        run: echo "token is ${{ vars.PROVA }} "
