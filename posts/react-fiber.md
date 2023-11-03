@@ -177,6 +177,4 @@ responsive, making React a popular and powerful choice for building modern web a
 introduction of React Fiber marks a significant milestone in React's evolution, paving the way for
 even more efficient and responsive applications.
 
-You can find my Jupyter Notebook for this on my Github.
-
 Thanks for reading ❤️
