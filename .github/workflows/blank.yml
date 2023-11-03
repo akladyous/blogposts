@@ -20,15 +20,29 @@ jobs:
     runs-on: ubuntu-latest
     environment: 'production'
 
-    env:
-      PROVA: ${{ vars.PROVA }}
-      TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
+        with:
+          super_secret: ${{ secrets.SuperSecret }}
+        env: # Or as an environment variable
+          super_secret: ${{ secrets.REVALIDATION_TOKEN }}
 
       - name: echo token
-        run: echo "token is $TOKEN"
+        run: |
+          echo "token is %TOKEN"
+          echo "token is %super_secret"
+          echo "token is $super_secret"
+
+      - name: echo revalidation token
+        run: |
+          echo "token is %REVALIDATION_TOKEN"
+          echo "token is $REVALIDATION_TOKEN"
+
       - name: echo var
-        run: echo "token is $PROVA"
+        env:
+          PROVA: ${{ vars.PROVA }}
+        run: |
+          echo "token is %PROVA"
+          echo "token is $ROVA"
