@@ -2,7 +2,7 @@
 
 name: On Demand Revalidation
 env:
-  GIT_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GIT_TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
 
 # Controls when the workflow will run
 on:
@@ -31,6 +31,6 @@ jobs:
       - name: validate endpoint
         run:
           curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=${{
-          secrets.GITHUB_TOKEN }}"
+          secrets.REVALIDATION_TOKEN }}"
       - name: echo data
         run: echo "token " >> $GIT_TOKEN
