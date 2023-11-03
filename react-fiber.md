@@ -149,6 +149,25 @@ const ExpensiveComponent = () => {
 };
 ```
 
+## Suspense Component
+
+The Suspense component is a powerful tool that allows developers to handle loading states and
+fallback UIs in an elegant and straightforward manner. It is especially useful when dealing with
+asynchronous data fetching or code-splitting.
+
+```javascript
+import { Suspense } from 'react';
+
+const MyComponent = () => {
+  return (
+    <Suspense fallback={<p>Loading...</p>}>
+      {/* Asynchronously load and render the lazy component */}
+      <LazyComponent />
+    </Suspense>
+  );
+};
+```
+
 You can find my Jupyter Notebook for this on my Github.
 
 Thanks for reading and happy web scraping everyone! ❤️
