@@ -1,9 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
 name: On Demand Revalidation
-env:
-  GIT_TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
-
 # Controls when the workflow will run
 on:
   # Triggers the workflow on push or pull request events but only for the "main" branch
@@ -33,4 +30,4 @@ jobs:
           curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=${{
           secrets.REVALIDATION_TOKEN }}"
       - name: echo data
-        run: echo "token " >> $GIT_TOKEN
+        run: echo "token " >> $secrets.REVALIDATION_TOKEN
