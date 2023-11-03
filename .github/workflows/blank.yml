@@ -29,8 +29,8 @@ jobs:
           TOKEN: ${{  secrets.REVALIDATION_TOKEN}}
         run: |
           echo "token is $TOKEN"
-          echo `token is` "$TOKEN"
+          echo "https://www.akladyous.it/api/revalidate?path=blog&token=$TOKEN"
 
       - name: validate endpoint
         run: |
-          curl -X GET 'https://www.akladyous.it/api/revalidate?path=blog&token='"$TOKEN"
+          curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=$TOKEN"
