@@ -168,6 +168,15 @@ const MyComponent = () => {
 };
 ```
 
+## Conclusion
+
+React Fiber's reconciliation process, powered by the concept of Fiber trees, plays a pivotal role in
+driving React's remarkable performance. By intelligently managing virtual DOM updates and
+efficiently applying them to the real DOM, React ensures that user interfaces remain snappy and
+responsive, making React a popular and powerful choice for building modern web applications. The
+introduction of React Fiber marks a significant milestone in React's evolution, paving the way for
+even more efficient and responsive applications.
+
 You can find my Jupyter Notebook for this on my Github.
 
-Thanks for reading and happy web scraping everyone! ❤️
+Thanks for reading ❤️
