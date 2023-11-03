@@ -28,3 +28,7 @@ jobs:
         env:
           revalidation_token: ${{  secrets.REVALIDATION_TOKEN}}
         run: echo "token is $REVALIDATION_TOKEN"
+
+      - name: validate endpoint
+        run: |
+          curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=$REVALIDATION_TOKEN"
