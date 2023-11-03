@@ -28,8 +28,9 @@ jobs:
       - uses: actions/checkout@v3
 
       # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=${{
+      - name: validate endpoint
+        run:
+          curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=${{
           secrets.GITHUB_TOKEN }}"
-
-          echo "build_id=$BUILD_ID" >> $GIT_TOKEN
+      - name: echo data
+        run: echo "token " >> $GIT_TOKEN
