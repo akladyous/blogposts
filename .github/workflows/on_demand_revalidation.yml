@@ -26,8 +26,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: validate endpoint
-        run:
-          curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=${{
-          secrets.REVALIDATION_TOKEN }}"
+        run: |
+          curl -X GET "https://www.akladyous.it/api/revalidate?path=blog&token=${{ secrets.REVALIDATION_TOKEN }}"
+
       - name: echo data
         run: echo "token " >> $secrets.REVALIDATION_TOKEN
