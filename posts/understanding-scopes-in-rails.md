@@ -1,7 +1,7 @@
 ---
 title: understanding scopes in rails
-date: 2022-06-09
-pubDate: 2022-06-09
+date: 2022-01-09
+pubDate: 2022-01-09
 tags: ['ruby on rails', 'active model']
 description: Unlock Rails Scopes Efficiently to filter, sort, and group data in your application.
 ---

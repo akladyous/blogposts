@@ -1,8 +1,8 @@
 ---
 title: sentiment analysis using vader
-date: 2023-10-05
-pubDate: 2023-10-05
-tags: ['data science', 'natural language processing']
+date: 2021-06-12
+pubDate: 2021-06-12
+tags: ['data science', 'nlp']
 description:
   Uncover customer opinions with NLP and ML. Use VADER for text classification and data-driven
   insights.
