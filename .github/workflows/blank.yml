@@ -15,14 +15,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: echo token
-        env:
-          TOKEN: ${{  secrets.REVALIDATION_TOKEN}}
-        run: |
-          echo "token is $TOKEN"
-          echo "https://www.akladyous.it/api/revalidate?path=blog&token=$TOKEN"
-          echo "https://www.akladyous.it/api/revalidate?token=$TOKEN&path=blog"
-
       - name: validate endpoint
         env:
           TOKEN: ${{  secrets.REVALIDATION_TOKEN}}
