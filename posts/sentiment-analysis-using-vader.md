@@ -22,7 +22,7 @@ within a phrase.
 Sentiment analysis is a powerful tool that businesses can leverage to better understand the overall
 opinions of their customer, gain insights and make data-driven decisions.
 
-In this tutorial we will classify text articles using VADER on a dataset from CrowdFlower.
+In this tutorial we will classify text articles using VADER on a dataset from CrowdFlower
 
 ## Import Libraries
 
@@ -41,16 +41,18 @@ nltk.download('punkt')
 ## Data Collection
 
 For the sake of this tutorial we’re going to use a simple dataset from CrowdFlower via data.world
-(IMDB Sentiment Sampled). For more info visit the link:
+(IMDB Sentiment Sampled).
 
-|
+For more info visit the link: |
 [https://data.world/robbertb/imdb-sentiment-sampled](https://data.world/robbertb/imdb-sentiment-sampled)
 
 ## Preprocessing
 
 The NLTK module is a massive tool kit, aimed to help you with the entire Natural Language Processing
-(NLP) methodology. NLTK will aid you with everything from splitting sentences from paragraphs,
-splitting up words, recognizing the part of speech of those words.
+(NLP) methodology.
+
+NLTK will aid you with everything from splitting sentences from paragraphs, splitting up words,
+recognizing the part of speech of those words.
 
 In order to apply polarity score we need to prepare your data, we start by the converting our data
 to lowercase using the built-in function “lower”.
