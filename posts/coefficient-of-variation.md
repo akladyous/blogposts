@@ -37,8 +37,6 @@ characteristics for more informed decision-making.
 
 ## What is Coefficient of Variation (CV)?
 
-### Coefficient of Variation
-
 Variability assessment is crucial in statistics, referring to the degree of dispersion or spread in
 a dataset. The Coefficient of Variation (CV) emerges as one such measure, representing the ratio of
 standard deviation to the mean. Often expressed as a percentage, CV facilitates comparing variation
@@ -63,8 +61,6 @@ risk or uncertainty within datasets.
    greater variability. Interpretation context varies with the dataset and field of study.
 
 ## 3. Calculating Coefficient of Variation
-
-### Coefficient of Variation
 
 In measuring variability, the Coefficient of Variation (CV) stands out as a versatile statistical
 tool widely employed in finance, biology, and engineering. As a relative measure, CV represents
