@@ -1,7 +1,7 @@
 ---
 title: understanding coefficient of variation
-date: 2023-06-24
-pubDate: 2023-06-24
+date: 2021-01-28
+pubDate: 2021-01-28
 tags: ['statistics', 'data science']
 description:
   discover the core of the coefficient of variation, a potent tool for measuring relative
