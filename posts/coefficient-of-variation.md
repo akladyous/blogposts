@@ -60,7 +60,7 @@ risk or uncertainty within datasets.
 5. **Interpretation:** A lower CV signifies a more consistent dataset, while a higher CV implies
    greater variability. Interpretation context varies with the dataset and field of study.
 
-## 3. Calculating Coefficient of Variation
+## Calculating Coefficient of Variation
 
 In measuring variability, the Coefficient of Variation (CV) stands out as a versatile statistical
 tool widely employed in finance, biology, and engineering. As a relative measure, CV represents
