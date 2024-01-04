@@ -35,7 +35,7 @@ ones include:
 Understanding variability is pivotal for making sense of data, enabling insights into dataset
 characteristics for more informed decision-making.
 
-## 2. What is Coefficient of Variation (CV)?
+## What is Coefficient of Variation (CV)?
 
 ### Coefficient of Variation
 
