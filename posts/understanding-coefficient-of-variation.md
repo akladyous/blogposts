@@ -10,7 +10,7 @@ description:
 
 # Understanding Coefficient of Variation (CV): A Comprehensive Guide
 
-![Alt text](/images/coefficient-of-variation.png)
+![Alt text](/images/understanding-coefficient-of-variation.png)
 
 In the realm of data analysis, various statistical measures assist in unraveling the nature of
 datasets. Variability, denoting the extent to which data points in a dataset differ, holds a
