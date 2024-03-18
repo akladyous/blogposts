@@ -19,4 +19,4 @@ jobs:
         env:
           TOKEN: ${{  secrets.REVALIDATION_TOKEN}}
         run: |
-          curl -X GET "https://www.akladyous.it/api/revalidate?token=$TOKEN&path=blog"
+          curl -X GET "https://www.boula.me/api/revalidate?token=$TOKEN&path=blog"
