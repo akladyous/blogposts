@@ -1,0 +1,25 @@
+name: On Demand Revalidation
+
+on:
+    push:
+        branches: ["main"]
+        paths:
+            - "posts/**"
+            - "images/**"
+jobs:
+    build:
+        runs-on: ubuntu-latesthttps://github.com/akladyous/blogposts/actions/workflows/blank.yml
+        environment: "production"
+
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: validate endpoint
+              env:
+                  TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
+              run: |
+                  curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
+            - name: Display inputs
+              run: |
+                  echo "Environment : ${{ github.event.inputs.environment }}"
+                  echo "Path        : ${{ github.event.inputs.path }}"
