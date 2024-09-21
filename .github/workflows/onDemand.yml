@@ -11,9 +11,9 @@ jobs:
         runs-on: ubuntu-latest
         environment: "production"
         steps:
-            - uses: actions/checkout@v3
             - name: validate endpoint
+              uses: actions/checkout@v4
               env:
-                TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
-                run: |
-                    curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
+                  TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
+                  run: |
+                      curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
