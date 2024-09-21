@@ -1,32 +1,33 @@
 name: On Demand Revalidation
+
 on:
-    push:
-        branches: ["main"]
-        paths:
-            - "posts/**"
-            - "images/**"
-
-    workflow_dispatch:
-
-    workflow_run:
-        workflows: ["Create BlogPost"]
-        types:
-            - completed
-        workflows: ["Update BlogPost"]
-        types:
-            - completed
-        workflows: ["Delete BlogPost"]
-        types:
-            - completed
+  push:
+    branches: ["main"]
+    paths:
+      - "posts/**"
+      - "images/**"
+  workflow_dispatch:
+  workflow_run:
+    workflows:
+      - "Create BlogPost"
+      - "Update BlogPost"
+      - "Delete BlogPost"
+    types:
+      - completed
 
 jobs:
-    build:
-        runs-on: ubuntu-latest
-        environment: "production"
-        steps:
-            - uses: actions/checkout@v3
-            - name: validate endpoint
-                env: TOKEN: ${{  secrets.REVALIDATION_TOKEN }}
-                run: curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
-            - name: Display selected environment
-                run: echo "Environment: ${{ github.event.inputs.environment }}"
+  build:
+    runs-on: ubuntu-latest
+    environment: "production"
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: validate endpoint
+        env:
+          TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
+        run: |
+          curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
+
+      - name: Display selected environment
+        run: echo "Environment: ${{ github.event.inputs.environment }}"
