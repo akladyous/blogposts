@@ -20,7 +20,7 @@ jobs:
         steps:
             - uses: actions/checkout@v3
 
-            - name: 'validate endpoint'
+            - name: validate endpoint
                 env:
                     TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
                 run: |
