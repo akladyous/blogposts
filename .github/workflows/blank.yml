@@ -19,3 +19,8 @@ jobs:
                   TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
               run: |
                   curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
+            - name: Display inputs
+              run: |
+                  echo "Environment: ${{ github.event.inputs.environment }}"
+                  echo "Path: ${{ github.event.inputs.path }}"
+                  echo "Force Update: ${{ github.event.inputs.force_update }}"
