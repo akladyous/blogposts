@@ -2,7 +2,7 @@
 title: web scraping
 date: 2021-06-12
 pubDate: 2021-06-12
-tags: ["python", "web scraping"]
+tags: ['python', 'web scraping']
 description: Extract data from websites with ease using NEWSAPI and boost your data science skills.
 ---
 
@@ -12,25 +12,29 @@ description: Extract data from websites with ease using NEWSAPI and boost your d
 
 ## Unlocking the Power of Web Scraping for Data Collection and Analysis
 
-Web Scraping is a technique employed to gather large amounts of data from websites whereby the data is extracted and stored into a structured format. such
-technique is widely used for a range of purposes, including market analysis, machine learning, news tracking and financial data aggregation. The ability of web
-scraping is an important skill for any data scientist to have in their set.
+Web Scraping is a technique employed to gather large amounts of data from websites whereby the data
+is extracted and stored into a structured format. such technique is widely used for a range of
+purposes, including market analysis, machine learning, news tracking and financial data aggregation.
+The ability of web scraping is an important skill for any data scientist to have in their set.
 
-There are many different approaches for getting data from the web such as writing a custom crawler from scratch, or by using one of the many existing libraries
-that make it absolutely easy to create a web scraping tool in Python.
+There are many different approaches for getting data from the web such as writing a custom crawler
+from scratch, or by using one of the many existing libraries that make it absolutely easy to create
+a web scraping tool in Python.
 
-In this Python tutorial we will go through a simple example of how to scrap a website to gather news articles and create simple applications using NEWSAPI
-library.
+In this Python tutorial we will go through a simple example of how to scrap a website to gather news
+articles and create simple applications using NEWSAPI library.
 
-Most of the libraries for gathering information are Python standard, with the exception of the Pandas and NewsApi libraries accessible via installation and free
-registration on the official websites.
+Most of the libraries for gathering information are Python standard, with the exception of the
+Pandas and NewsApi libraries accessible via installation and free registration on the official
+websites.
 
 ## Prerequisites
 
 Get API key
 
-Firstly, get the API key by registering on the News API web page. Be sure to register as an individual. This will grant the free usage of the API. Click Here
-and fill out the form. The API key should be in your inbox shorty.
+Firstly, get the API key by registering on the News API web page. Be sure to register as an
+individual. This will grant the free usage of the API. Click Here and fill out the form. The API key
+should be in your inbox shorty.
 
 ```python
 import pandas as pd
@@ -42,9 +46,9 @@ API Key Note that in order to interact with the API, it is mandatory to provide 
 
 There are two ways to do that
 
--   Using API key in the request URL
-    [(“https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY?")](https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY)
--   newsapi = NewsApiClient(api_key=’API_KEY’)
+- Using API key in the request URL
+  [(“https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY?")](https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY)
+- newsapi = NewsApiClient(api_key=’API_KEY’)
 
 ## Headers
 
@@ -59,10 +63,12 @@ headers = {'Authorization': 'cd23a40b7a0d44cb99af86eeb31869eb'
 
 News API has 2 main endpoints:
 
--   **Everything** /v2/everything – search every article published by over 75,000 different sources large and small in the last 3 years. This endpoint is ideal
-    for news analysis and article discovery.
--   **Top headlines** /v2/top-headlines – returns breaking news headlines for countries, categories, and singular publishers. This is perfect for use with news
-    tickers or anywhere you want to display live up-to-date news headlines.
+- **Everything** /v2/everything – search every article published by over 75,000 different sources
+  large and small in the last 3 years. This endpoint is ideal for news analysis and article
+  discovery.
+- **Top headlines** /v2/top-headlines – returns breaking news headlines for countries, categories,
+  and singular publishers. This is perfect for use with news tickers or anywhere you want to display
+  live up-to-date news headlines.
 
 ```python
 # create 2 variables to hold the API endpoints.
@@ -74,7 +80,8 @@ top_headlines = "https://newsapi.org/v2/top-headlines?"
 
 Keywords or a phrase to search for.
 
-the parameter ‘q’ stands for the keyword search value. The news articles matching the keyword search are returned as a response
+the parameter ‘q’ stands for the keyword search value. The news articles matching the keyword search
+are returned as a response
 
 ```python
 # in our tutorial we look for news related to Apple
@@ -92,7 +99,8 @@ sources = ['abc-news', 'business-insider', 'financial-post', 'google-news',
 
 ## API sortBy
 
-The ‘sortBy’ parameter contains the option that applies to the returned articles. Based on this value, the articles are sorted in the response
+The ‘sortBy’ parameter contains the option that applies to the returned articles. Based on this
+value, the articles are sorted in the response
 
 Possible options: [relevancy, popularity, publishedAt].
 
@@ -102,8 +110,9 @@ sorby = "popularity"
 
 ## Payloads
 
-Next step is to create different payloads that need to be sent to the API. The payload is nothing more than some information that needs to be sent to the API.
-The payload can include information such as news category, country, language, etc.
+Next step is to create different payloads that need to be sent to the API. The payload is nothing
+more than some information that needs to be sent to the API. The payload can include information
+such as news category, country, language, etc.
 
 ```python
 params= {
@@ -119,14 +128,16 @@ params= {
 
 Make the request using the get() method of the requests library.
 
-Make the request using the get() method of the requests library. we’re going to pass ony 2 parameters, first the ‘url’ parameter, specify the NewsAPI endpoint,
-and lastly pass the payloads dictionary to the ‘params’ parameter.
+Make the request using the get() method of the requests library. we’re going to pass ony 2
+parameters, first the ‘url’ parameter, specify the NewsAPI endpoint, and lastly pass the payloads
+dictionary to the ‘params’ parameter.
 
 ```python
 response = requests.get(url=top_headlines, headers=headers, params=params)
 ```
 
-The structure of the “requests” remains the same throughout, we can update the parameters “url” and “params” parameter in order to gather diffrent type of news.
+The structure of the “requests” remains the same throughout, we can update the parameters “url” and
+“params” parameter in order to gather diffrent type of news.
 
 ## Response
 
@@ -136,7 +147,8 @@ Create a viariable to hold the the “response” in dictionary format
 output = response.json()
 ```
 
-Print out the response on the console by accessing the method “json”, since it already data formated by NewsAPI library.
+Print out the response on the console by accessing the method “json”, since it already data formated
+by NewsAPI library.
 
 ```
 print(json.dumps(output, indent=4))
@@ -175,7 +187,8 @@ print(json.dumps(output, indent=4))
 
 ## Save Resonse to CSV
 
-In order to create a dataframe with the result obtained, we must access the dictionary values using the “articles” key
+In order to create a dataframe with the result obtained, we must access the dictionary values using
+the “articles” key
 
 ```python
 print(output.keys())
@@ -189,7 +202,8 @@ articles = output['articles']
 
 ```
 
-Using “pandas” we create a dataframe using the method “DataFrame” passing parameter “data” with the articles variable
+Using “pandas” we create a dataframe using the method “DataFrame” passing parameter “data” with the
+articles variable
 
 ```python
 df = pd.DataFrame(articles)
