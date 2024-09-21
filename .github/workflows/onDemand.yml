@@ -6,6 +6,12 @@ on:
         paths:
             - "posts/**"
             - "images/**"
+    workflow_dispatch:
+        inputs:
+            environment:
+            description: "Deployment environment (e.g., production, staging)"
+            required: true
+            default: "production" # Optional: Define a default value
 jobs:
     build:
         runs-on: ubuntu-latest
