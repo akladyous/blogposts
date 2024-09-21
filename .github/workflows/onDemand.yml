@@ -9,9 +9,9 @@ on:
     workflow_dispatch:
         inputs:
             environment:
-            description: "Deployment environment (e.g., production, staging)"
-            required: true
-            default: "production" # Optional: Define a default value
+                description: "The environment to deploy to"
+                required: true
+                default: "production"
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -31,3 +31,8 @@ jobs:
                   echo "Path        : ${{ github.event.inputs.path }}"
                   echo "Inputs      : ${{ github.event.inputs }}"
                   echo "Events      : ${{ github.event }}"
+            - name: 'Print workflow dispatch details'
+                run: |
+                  echo "Environment: ${{ github.event.inputs.environment }}"
+                  echo "Triggered by: ${{ github.event.sender.login }}"
+                  echo "Branch: ${{ github.event.ref }}"
