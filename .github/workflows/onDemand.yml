@@ -8,7 +8,7 @@ on:
             - "images/**"
 jobs:
     build:
-        runs-on: ubuntu-latesthttps://github.com/akladyous/blogposts/actions/workflows/blank.yml
+        runs-on: ubuntu-latest
         environment: "production"
 
         steps:
