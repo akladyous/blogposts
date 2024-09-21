@@ -6,12 +6,6 @@ on:
         paths:
             - "posts/**"
             - "images/**"
-    workflow_dispatch:
-        inputs:
-            environment:
-                description: "The environment to deploy to"
-                required: true
-                default: "production"
 jobs:
     build:
         runs-on: ubuntu-latest
@@ -20,5 +14,6 @@ jobs:
             - uses: actions/checkout@v3
             - name: validate endpoint
               env:
-                  TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
-                  run: curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
+                TOKEN: ${{ secrets.REVALIDATION_TOKEN }}
+                run: |
+                    curl -X GET "https://www.boula.dev/api/revalidate?token=$TOKEN&path=blog"
