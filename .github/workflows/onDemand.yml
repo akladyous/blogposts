@@ -23,3 +23,5 @@ jobs:
               run: |
                   echo "Environment : ${{ github.event.inputs.environment }}"
                   echo "Path        : ${{ github.event.inputs.path }}"
+                  echo "Inputs      : ${{ github.event.inputs }}"
+                  echo "Events      : ${{ github.event }}"
