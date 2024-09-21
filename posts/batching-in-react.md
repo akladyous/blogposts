@@ -13,7 +13,7 @@ description: Discover React's Batching, Enhancing UI Performance with Update Bat
 # Introduction
 
 React is known for its efficient rendering process, and one of the key techniques it utilizes is batching. Batching refers to the process of combining multiple
-updates into a single update, minimizing the number of times the real DOM needs to be updated..
+updates into a single update, minimizing the number of times the real DOM needs to be updated.
 
 In this article, we will explore how batching works under the hood in React and its impact on performance. We will also provide examples to demonstrate the
 concept.
