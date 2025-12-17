@@ -1,14 +1,16 @@
 ---
 title: web scraping
 date: 2021-06-12
-pubDate: 2021-06-12
-tags: ['python', 'web scraping']
-description: Extract data from websites with ease using NEWSAPI and boost your data science skills.
+tags: ["python", "web scraping"]
+subtitle: Extract data from websites with ease using NEWSAPI and boost your data science skills.
+coverImage: "web-scraping.webp"
+draft: false
+category: "data science"
 ---
 
 # Web scraping — News Articles using NewsAPI
 
-![Alt text](/images/web-scraping.png)
+![Alt text](web-scraping.png)
 
 ## Unlocking the Power of Web Scraping for Data Collection and Analysis
 
@@ -46,9 +48,9 @@ API Key Note that in order to interact with the API, it is mandatory to provide 
 
 There are two ways to do that
 
-- Using API key in the request URL
-  [(“https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY?")](https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY)
-- newsapi = NewsApiClient(api_key=’API_KEY’)
+-   Using API key in the request URL
+    [(“https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY?")](https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY)
+-   newsapi = NewsApiClient(api_key=’API_KEY’)
 
 ## Headers
 
@@ -63,12 +65,12 @@ headers = {'Authorization': 'cd23a40b7a0d44cb99af86eeb31869eb'
 
 News API has 2 main endpoints:
 
-- **Everything** /v2/everything – search every article published by over 75,000 different sources
-  large and small in the last 3 years. This endpoint is ideal for news analysis and article
-  discovery.
-- **Top headlines** /v2/top-headlines – returns breaking news headlines for countries, categories,
-  and singular publishers. This is perfect for use with news tickers or anywhere you want to display
-  live up-to-date news headlines.
+-   **Everything** /v2/everything – search every article published by over 75,000 different sources
+    large and small in the last 3 years. This endpoint is ideal for news analysis and article
+    discovery.
+-   **Top headlines** /v2/top-headlines – returns breaking news headlines for countries, categories,
+    and singular publishers. This is perfect for use with news tickers or anywhere you want to display
+    live up-to-date news headlines.
 
 ```python
 # create 2 variables to hold the API endpoints.
@@ -210,7 +212,7 @@ df = pd.DataFrame(articles)
 df.head(3)
 ```
 
-![Alt text](/images/web-scraping-1.png)
+![Alt text](web-scraping-1.png)
 
 You can find my Jupyter Notebook for this on my Github.
 

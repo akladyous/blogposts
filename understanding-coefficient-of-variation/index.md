@@ -1,16 +1,17 @@
 ---
 title: understanding coefficient of variation
 date: 2021-01-28
-pubDate: 2021-01-28
-tags: ['statistics', 'data science']
-description:
-  discover the core of the coefficient of variation, a potent tool for measuring relative
-  variability.
+tags: ["statistics", "data science"]
+subtitle: discover the core of the coefficient of variation, a potent tool for measuring relative
+    variability.
+coverImage: "understanding-coefficient-of-variation.webp"
+draft: false
+category: "data science"
 ---
 
 # Understanding Coefficient of Variation (CV): A Comprehensive Guide
 
-![Alt text](/images/understanding-coefficient-of-variation.png)
+![Alt text](understanding-coefficient-of-variation.png)
 
 In the realm of data analysis, various statistical measures assist in unraveling the nature of
 datasets. Variability, denoting the extent to which data points in a dataset differ, holds a
@@ -70,25 +71,25 @@ interpretation and application.
 
 1. **Formula for Calculating CV:**
 
-   - CV = (Standard Deviation / Mean) x 100%
+    - CV = (Standard Deviation / Mean) x 100%
 
-   **Example:** Consider daily stock returns over ten days: 1.2%, -0.5%, 0.8%, -1.1%, 2.3%, 0.9%,
-   -2.0%, -0.7%, 1.5%, 0.3%. Mean return = 0.34%, Standard Deviation = 1.48%, CV = (1.48 / 0.34) x
-   100% = 435.29%.
+    **Example:** Consider daily stock returns over ten days: 1.2%, -0.5%, 0.8%, -1.1%, 2.3%, 0.9%,
+    -2.0%, -0.7%, 1.5%, 0.3%. Mean return = 0.34%, Standard Deviation = 1.48%, CV = (1.48 / 0.34) x
+    100% = 435.29%.
 
 2. **Interpretation of CV:**
 
-   - Low CV (< 15%): Low variability.
-   - Moderate CV (15% - 30%): Moderate variability.
-   - High CV (> 30%): High variability.
+    - Low CV (< 15%): Low variability.
+    - Moderate CV (15% - 30%): Moderate variability.
+    - High CV (> 30%): High variability.
 
-   Interpretation varies by field; e.g., in finance, CV < 30% may be considered low.
+    Interpretation varies by field; e.g., in finance, CV < 30% may be considered low.
 
 3. **Application of CV:**
-   - Finance: Measures risk and volatility.
-   - Biology: Gauges variability in biological traits.
-   - Engineering: Assesses manufacturing process variability.
-   - Medicine: Evaluates variability in medical test results.
+    - Finance: Measures risk and volatility.
+    - Biology: Gauges variability in biological traits.
+    - Engineering: Assesses manufacturing process variability.
+    - Medicine: Evaluates variability in medical test results.
 
 ## 4. Interpreting Coefficient of Variation
 

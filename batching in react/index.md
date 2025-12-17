@@ -1,14 +1,16 @@
 ---
 title: batching in react
 date: 2023-06-24
-pubDate: 2023-06-24
 tags: ["react.js", "concurrency"]
-description: Discover React's Batching, Enhancing UI Performance with Update Batching.
+subtitle: Discover React's Batching, Enhancing UI Performance with Update Batching.
+coverImage: "batching-in-react.webp"
+draft: false
+category: "software engineering"
 ---
 
 # Optimizing UI Updates for Performance
 
-![Alt text](/images/batching-in-react.png)
+![Alt text](batching-in-react.png)
 
 # Introduction
 
@@ -41,12 +43,18 @@ function Example() {
     const [count, setCount] = useState(0);
 
     const handleClick = () => {
-        console.log("before ", React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner.currentDispatcher);
+        console.log(
+            "before ",
+            React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner.currentDispatcher,
+        );
         setCount(count + 1);
         setCount(count + 1);
         setCount(count + 1);
 
-        console.log("after ", React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner.currentDispatcher);
+        console.log(
+            "after ",
+            React.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner.currentDispatcher,
+        );
     };
 
     return (

@@ -1,9 +1,11 @@
 ---
 title: Single Page Application (SPA) WorkFlow
 date: 2020-03-18
-pubDate: 2020-03-18
 tags: ["react.js", "spa", "state management"]
-description: Streamlined development process for creating dynamic and responsive single-page applications.
+subtitle: Streamlined development process for creating dynamic and responsive single-page applications.
+coverImage: "spa-todo-application-workflow.webp"
+draft: false
+category: "software engineering"
 ---
 
 # SPA todo application workflow

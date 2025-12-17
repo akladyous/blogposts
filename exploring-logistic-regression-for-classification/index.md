@@ -1,14 +1,16 @@
 ---
 title: exploring logistic regression for classification
 date: 2021-06-12
-pubDate: 2021-06-12
 tags: ["classification", "Machine Learning"]
-description: Understand the fundamentals of logistic regression and its applications in classification problems.
+subtitle: Understand the fundamentals of logistic regression and its applications in classification problems.
+coverImage: "exploring-logistic-regression-for-classification.webp"
+draft: false
+category: "data science"
 ---
 
 # Exploring Logistic Regression for Classification
 
-![Alt text](/images/exploring-logistic-regression-for-classification.png)
+![Alt text](exploring-logistic-regression-for-classification.png)
 
 ## Introduction
 
@@ -60,7 +62,7 @@ and **_one_**. For the logit, this is interpreted as taking input log-odds and h
 
 To understand how sigmoid function squashes the values within the range, let’s visualize the graph of the sigmoid function.
 
-![Alt text](/images/logistic-regression-1.png) As you can see from the graph, the sigmoid function becomes asymptote to y=1 for positive values of x and becomes
+![Alt text](logistic-regression-1.png) As you can see from the graph, the sigmoid function becomes asymptote to y=1 for positive values of x and becomes
 asymptote to y=0 for negative values of x.
 
 ## Regularization in Logistic Regression

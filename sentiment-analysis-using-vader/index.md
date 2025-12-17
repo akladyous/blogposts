@@ -1,14 +1,16 @@
 ---
 title: sentiment analysis using vader
 date: 2021-06-12
-pubDate: 2021-06-12
 tags: ["data science", "nlp"]
-description: Uncover customer opinions with NLP and ML. Use VADER for text classification and data-driven insights.
+subtitle: Uncover customer opinions with NLP and ML. Use VADER for text classification and data-driven insights.
+coverImage: "sentiment-analysis-using-vader.webp"
+draft: false
+category: "data science"
 ---
 
 # Sentiment Analysis using VADER
 
-![Alt text](/images/sentiment-analysis-using-vader.png)
+![Alt text](sentiment-analysis-using-vader.png)
 
 ## Understanding Sentiment Analysis in Natural Language Processing
 
@@ -110,7 +112,7 @@ Now we can create a new column to the original DataFrame to store the polarity_s
 df['score'] = df['review'].apply(lambda txt: sid.polarity_scores(txt))
 ```
 
-![Alt text](/images/sentiment-analysis-vader-1.png)
+![Alt text](sentiment-analysis-vader-1.png)
 
 ```python
 df['negative'] = df['score'].apply(lambda txt: txt['neg'])
@@ -119,7 +121,7 @@ df['positive'] = df['score'].apply(lambda txt: txt['pos'])
 df['compound'] = df['score'].apply(lambda txt: txt['compound'])
 ```
 
-![Alt text](/images/sentiment-analysis-vader-2.png)
+![Alt text](sentiment-analysis-vader-2.png)
 
 We will follow by creating a function called “polarity_score” to calculate the accuracy test for each review in our dataframe. We can finally apply the function
 by creating a new column called “sentiment”.
@@ -139,7 +141,7 @@ df['sentiment'] = df['compound'].apply(lambda val: polarity_score(val))
 df.head()
 ```
 
-![Alt text](/images/sentiment-analysis-vader-3.png)
+![Alt text](sentiment-analysis-vader-3.png)
 
 ```python
 df['sentiment'].value_counts()

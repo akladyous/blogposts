@@ -1,14 +1,16 @@
 ---
 title: rails action mailer configuration
 date: 2021-06-21
-pubDate: 2021-06-21
 tags: ["ruby on rails", "actionmailer"]
-description: Learn how to set up Action Mailer for sending emails via Gmail and SendGrid with step-by-step guidance.
+subtitle: Learn how to set up Action Mailer for sending emails via Gmail and SendGrid with step-by-step guidance.
+coverImage: "rails-action-mailer-configuration.webp"
+draft: false
+category: "software engineering"
 ---
 
 # Rails Action Mailer Configuration
 
-![action mailer](/images/rails-action-mailer-configuration.png)
+![action mailer](rails-action-mailer-configuration.png)
 
 ### Action Mailer overview
 
@@ -28,15 +30,15 @@ In order to use Action Mail with Gmail, the best solution that does not violate 
 
 \*\* Open your [Account Security Settings](https://myaccount.google.com/security)
 
-![Alt google-app-passwords](/images/action-mailer-config-1.png)
+![Alt google-app-passwords](action-mailer-config-1.png)
 
 -   Navigate to App Password
 
-![Alt google-app-passwords](/images/action-mailer-config-2.png)
+![Alt google-app-passwords](action-mailer-config-2.png)
 
 On the App Password page, select “Mail” app, and “Other” device, now we provide the name of ruby on Rail application. Then click “Generate”.
 
-![Alt text](/images/action-mailer-config-3.png)
+![Alt text](action-mailer-config-3.png)
 
 Copy your App password from the yellow Box.
 

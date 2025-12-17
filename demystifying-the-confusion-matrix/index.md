@@ -1,14 +1,16 @@
 ---
 title: demystifying the confusion matrix
 date: 2021-06-13
-pubDate: 2021-06-13
 tags: ["data science", "classification"]
-description: Understand the significance of a confusion matrix and its role in assessing classification model performance.
+subtitle: Understand the significance of a confusion matrix and its role in assessing classification model performance.
+coverImage: "demystifying-the-confusion-matrix.webp"
+draft: false
+category: "data science"
 ---
 
 # Demystifying the Confusion Matrix
 
-![Alt text](/images/demystifying-the-confusion-matrix.png)
+![Alt text](demystifying-the-confusion-matrix.png)
 
 ## What is Confusion Matrix
 
@@ -19,7 +21,7 @@ vary but the concept is very simple even the correlated terminology can create c
 A confusion matrix is useful in the supervised learning category of machine learning using a labelled data set. As shown below, it is represented by a table.
 This is a sample confusion matrix for a binary classifier (i.e. 0-Negative or 1-Positive)
 
-![confusion-matrix](/images/confusion-matrix-1.png)
+![confusion-matrix](confusion-matrix-1.png)
 
 ## Understanding the Confusion Matrix
 
