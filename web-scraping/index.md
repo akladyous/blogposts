@@ -46,11 +46,19 @@ import json
 
 API Key Note that in order to interact with the API, it is mandatory to provide the API key.
 
-There are two ways to do that
+There are two ways to do that:
 
--   Using API key in the request URL
-    [(“https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY?")](https://newsapi.org/v2/everything?q=bitcoin&apiKey=API_KEY)
--   newsapi = NewsApiClient(api_key=’API_KEY’)
+1. **Using API key in the request URL**: Include the API key as a query parameter in the URL when making requests.
+
+    ```
+    https://newsapi.org/v2/everything?q=bitcoin&apiKey=YOUR_API_KEY
+    ```
+
+2. **Using the NewsApiClient library**: Initialize the client with your API key (requires installing the `newsapi-python` package).
+    ```python
+    from newsapi import NewsApiClient
+    newsapi = NewsApiClient(api_key='YOUR_API_KEY')
+    ```
 
 ## Headers
 

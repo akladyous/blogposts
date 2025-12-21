@@ -4,7 +4,6 @@ date: 2023-06-24
 tags: ["react.js", "concurrency"]
 subtitle: Discover React's Batching, Enhancing UI Performance with Update Batching.
 coverImage: "batching-in-react.webp"
-draft: false
 category: "software engineering"
 ---
 
