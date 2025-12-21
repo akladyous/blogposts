@@ -10,7 +10,7 @@ category: "software engineering"
 
 ## Understanding Scopes in Rails
 
-![Alt text](understanding-scopes-in-rails.png)
+![blog image](understanding-scopes-in-rails.webp)
 
 ## Understanding Rails Scopes and Class Methods for Efficient Database Queries
 

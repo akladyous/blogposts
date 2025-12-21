@@ -10,7 +10,7 @@ category: "data science"
 
 # Web scraping — News Articles using NewsAPI
 
-![Alt text](web-scraping.png)
+![blog image](web-scraping.webp)
 
 ## Unlocking the Power of Web Scraping for Data Collection and Analysis
 
@@ -212,7 +212,7 @@ df = pd.DataFrame(articles)
 df.head(3)
 ```
 
-![Alt text](web-scraping-1.png)
+![blog image](web-scraping-1.png)
 
 You can find my Jupyter Notebook for this on my Github.
 

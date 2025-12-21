@@ -10,7 +10,7 @@ category: "software engineering"
 
 # An Overview of Fiber Trees and Reconciliation
 
-![Alt text](react-fiber.png)
+![blog image](react-fiber.webp)
 
 ## Unlocking the Power of Web Scraping for Data Collection and Analysis
 

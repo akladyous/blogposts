@@ -10,6 +10,8 @@ category: "software engineering"
 
 # SPA todo application workflow
 
+![blog image](single-page-application-(spa)-WorkFlow.webp)
+
 Let’s explain how we'd build the same todo application as a Single Page Application (SPA) using React.js, focusing on data and state management. Let's start
 with a high-level overview and then dive into the details.
 

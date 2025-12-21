@@ -10,7 +10,7 @@ category: "software engineering"
 
 # Optimizing UI Updates for Performance
 
-![Alt text](batching-in-react.png)
+![blog image](batching-in-react.webp)
 
 # Introduction
 

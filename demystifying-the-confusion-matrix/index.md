@@ -10,7 +10,7 @@ category: "data science"
 
 # Demystifying the Confusion Matrix
 
-![Alt text](demystifying-the-confusion-matrix.png)
+![blog image](demystifying-the-confusion-matrix.webp)
 
 ## What is Confusion Matrix
 

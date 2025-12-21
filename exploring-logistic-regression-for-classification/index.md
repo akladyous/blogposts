@@ -10,7 +10,7 @@ category: "data science"
 
 # Exploring Logistic Regression for Classification
 
-![Alt text](exploring-logistic-regression-for-classification.png)
+![blog image](exploring-logistic-regression-for-classification.webp)
 
 ## Introduction
 
@@ -62,7 +62,7 @@ and **_one_**. For the logit, this is interpreted as taking input log-odds and h
 
 To understand how sigmoid function squashes the values within the range, let’s visualize the graph of the sigmoid function.
 
-![Alt text](logistic-regression-1.png) As you can see from the graph, the sigmoid function becomes asymptote to y=1 for positive values of x and becomes
+![blog image](logistic-regression-1.png) As you can see from the graph, the sigmoid function becomes asymptote to y=1 for positive values of x and becomes
 asymptote to y=0 for negative values of x.
 
 ## Regularization in Logistic Regression

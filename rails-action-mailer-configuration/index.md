@@ -10,7 +10,7 @@ category: "software engineering"
 
 # Rails Action Mailer Configuration
 
-![action mailer](rails-action-mailer-configuration.png)
+![action mailer](rails-action-mailer-configuration.webp)
 
 ### Action Mailer overview
 
@@ -38,7 +38,7 @@ In order to use Action Mail with Gmail, the best solution that does not violate 
 
 On the App Password page, select “Mail” app, and “Other” device, now we provide the name of ruby on Rail application. Then click “Generate”.
 
-![Alt text](action-mailer-config-3.png)
+![blog image](action-mailer-config-3.png)
 
 Copy your App password from the yellow Box.
 
