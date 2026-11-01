@@ -3,7 +3,7 @@ title: batching in react
 published: true
 tags: ["softwareengineering", "#react", "#frontend"]
 description: Discover React's Batching, Enhancing UI Performance with Update Batching.
-cover_image: https://miro.medium.com/v2/resize:fit:640/format:webp/1*9_mi0k0NRFrvAPUF_5pE6g.jpeg
+cover_image: https://github.com/akladyous/blogposts/blob/main/batching-in-react/batching-in-react.jpeg?raw=true
 series: "software engineering"
 ---
 
