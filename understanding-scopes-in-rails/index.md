@@ -1,14 +1,11 @@
 ---
-title: understanding scopes in rails
-date: 2022-01-09
-tags: ["ruby on rails", "active model"]
-subtitle: Unlock Rails Scopes Efficiently to filter, sort, and group data in your application.
-coverImage: "understanding-scopes-in-rails.webp"
-draft: false
-category: "software engineering"
+title: Understanding Scopes in Rails
+published: true
+tags: ["softwareengineering", "rails", "activemodel", "backend"]
+description: Unlock Rails Scopes Efficiently to filter, sort, and group data in your application.
+cover_image: https://share.gemini.google/xcDHwbCYTk2x
+series: "software engineering"
 ---
-
-## Understanding Scopes in Rails
 
 ![blog image](understanding-scopes-in-rails.webp)
 

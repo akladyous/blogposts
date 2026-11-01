@@ -1,16 +1,11 @@
 ---
 title: Single Page Application (SPA) WorkFlow
-date: 2020-03-18
-tags: ["react.js", "spa", "state management"]
-subtitle: Streamlined development process for creating dynamic and responsive single-page applications.
-coverImage: "spa-todo-application-workflow.webp"
-draft: false
-category: "software engineering"
+published: true
+tags: ["softwareengineering", "#react", "#frontend"]
+description: Streamlined development process for creating dynamic and responsive single-page applications.
+cover_image: https://github.com/akladyous/blogposts/blob/main/single-page-application-(spa)-WorkFlow/single-page-application-(spa)-WorkFlow.webp?raw=true
+series: "software engineering"
 ---
-
-# SPA todo application workflow
-
-![blog image](single-page-application-(spa)-WorkFlow.webp)
 
 Let’s explain how we'd build the same todo application as a Single Page Application (SPA) using React.js, focusing on data and state management. Let's start
 with a high-level overview and then dive into the details.

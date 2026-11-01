@@ -1,16 +1,13 @@
 ---
-title: react fiber
-date: 2023-01-12
-tags: ["react.js"]
-subtitle: react fiber is a game-changing addition to react, designed to boost performance by optimizing the rendering process.
-coverImage: "react-fiber.webp"
-draft: false
-category: "software engineering"
+title: React Fiber
+published: true
+tags: ["softwareengineering", "#react", "#frontend"]
+description: react fiber is a game-changing addition to react, designed to boost performance by optimizing the rendering process.
+cover_image: https://cdn.hashnode.com/res/hashnode/image/upload/v1766354831403/f9d24af7-8147-4e81-b4a6-080a17906f07.webp
+series: "software engineering"
 ---
 
 # An Overview of Fiber Trees and Reconciliation
-
-![blog image](react-fiber.webp)
 
 ## Unlocking the Power of Web Scraping for Data Collection and Analysis
 

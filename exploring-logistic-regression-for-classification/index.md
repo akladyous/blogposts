@@ -1,11 +1,10 @@
 ---
 title: exploring logistic regression for classification
-date: 2021-06-12
-tags: ["classification", "Machine Learning"]
-subtitle: Understand the fundamentals of logistic regression and its applications in classification problems.
-coverImage: "exploring-logistic-regression-for-classification.webp"
-draft: false
-category: "data science"
+published: true
+tags: ["datascience", "classification", "machinelearning", "ai"]
+description: Understand the fundamentals of logistic regression and its applications in classification problems.
+cover_image: https://miro.medium.com/v2/resize:fit:720/format:webp/0*0G1orPa5JdvdKT2y.jpg
+series: "data science"
 ---
 
 # Exploring Logistic Regression for Classification
@@ -43,27 +42,28 @@ opinion poll (Agree/Disagree/Neutral), or scores on a test (Poor/Average/Good).
 
 ## Advantages
 
--   Logistic regression is easier to implement, interpret, and very efficient to train.
--   It makes no assumptions about distributions of classes in feature space.
--   It can easily extend to multiple classes(multinomial regression) and a natural probabilistic view of class predictions.
--   Logistic regression works well for cases where the dataset is linearly separable.
+- Logistic regression is easier to implement, interpret, and very efficient to train.
+- It makes no assumptions about distributions of classes in feature space.
+- It can easily extend to multiple classes(multinomial regression) and a natural probabilistic view of class predictions.
+- Logistic regression works well for cases where the dataset is linearly separable.
 
 ## Disadvantages
 
--   Logistic regression fails to predict a continuous outcome.
--   If the number of observations is lesser than the number of features, Logistic Regression should not be used, otherwise it may lead to overfitting.
--   Logistic Regression requires average or no multicollinearity between independent variables.
--   Logistic regression may not be accurate if the sample size is too small.
+- Logistic regression fails to predict a continuous outcome.
+- If the number of observations is lesser than the number of features, Logistic Regression should not be used, otherwise it may lead to overfitting.
+- Logistic Regression requires average or no multicollinearity between independent variables.
+- Logistic regression may not be accurate if the sample size is too small.
 
 ## What is Sigmoid Function
 
 In order to map predicted values to probabilities, we use the sigmoid function. The function map any real input **_t_** and outputs a value between **_zero_**
 and **_one_**. For the logit, this is interpreted as taking input log-odds and having output probability. the logistic “sigmoid” function is defined as follow:
+![Sigmoid Function Formula](https://miro.medium.com/v2/resize:fit:534/format:webp/0*bBBw3onpFp1R5LIH.png)
 
 To understand how sigmoid function squashes the values within the range, let’s visualize the graph of the sigmoid function.
 
-![blog image](logistic-regression-1.png) As you can see from the graph, the sigmoid function becomes asymptote to y=1 for positive values of x and becomes
-asymptote to y=0 for negative values of x.
+![Sigmoid Function](https://miro.medium.com/v2/resize:fit:640/format:webp/0*u3tTuuP591R718GJ.png) <br> As you can see from the graph, the sigmoid function
+becomes asymptote to y=1 for positive values of x and becomes asymptote to y=0 for negative values of x.
 
 ## Regularization in Logistic Regression
 

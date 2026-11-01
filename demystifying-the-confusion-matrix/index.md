@@ -1,11 +1,10 @@
 ---
 title: demystifying the confusion matrix
-date: 2021-06-13
-tags: ["data science", "classification"]
-subtitle: Understand the significance of a confusion matrix and its role in assessing classification model performance.
-coverImage: "demystifying-the-confusion-matrix.webp"
-draft: false
-category: "data science"
+published: true
+tags: ["datascience", "classification"]
+description: Understand the significance of a confusion matrix and its role in assessing classification model performance.
+cover_image: https://miro.medium.com/v2/resize:fit:720/format:webp/1*QrQggNjisBveXFTy3cc5Yg.png
+series: "data science"
 ---
 
 # Demystifying the Confusion Matrix
@@ -48,7 +47,7 @@ There are multiple accuracy metrics that can be generated from the confusion mat
 ### Accuracy
 
 Accuracy (ACC) is calculated as the number of all correct predictions divided by the total number of the dataset. The best accuracy is 1.0, whereas the worst is
-0.0. It can also be calculated by 1 —
+0.0. It can also be calculated by 1 — ERR ![Accuracy Formula](https://miro.medium.com/v2/resize:fit:640/format:webp/1*02RT6R21KxeaQz2E80rFRw.gif)
 
 ## Precision
 
@@ -56,6 +55,7 @@ Precision (Positive Predictive Value):
 
 Precision is the number of True Positives divided by the number of True Positives and False Positives. Put another way, it is the number of positive predictions
 divided by the total number of positive class values predicted. It is also called the Positive Predictive Value (PPV)
+![Precision Formula](https://miro.medium.com/v2/resize:fit:640/format:webp/1*ZYHC5mBbVvklQv4nTLweYA.gif)
 
 ## Recall
 
@@ -63,7 +63,7 @@ Recall (Sensitivity or True Positive Rate):
 
 Precision is the ratio of true positives to the total of the true positives and false positives. Precision looks to see how much junk positives got thrown in
 the mix. If there are no bad positives (those FPs), then the model had 100% precision. The more FPs that get into the mix, the uglier that precision is going to
-look.
+look. ![Recall Formula](https://miro.medium.com/v2/resize:fit:640/format:webp/1*Gb4eLIjaXzpZ9x9m4yXBUw.gif)
 
 ## F1 Score
 
@@ -71,6 +71,8 @@ F1 Score is the weighted average of Precision and Recall. Therefore, this score 
 not as easy to understand as accuracy, but F1 is usually more useful than accuracy, especially if you have an uneven class distribution. Accuracy works best if
 false positives and false negatives have similar cost. If the cost of false positives and false negatives are very different, it’s better to look at both
 Precision and Recall. In our case, F1 score is 0.701
+
+![F1 Score Formula](https://miro.medium.com/v2/resize:fit:526/format:webp/1*3p0090eL3qQhssv_SaxGRQ.gif)
 
 [For a Deeper Dive, Check the Original Post 🔗](https://medium.com/@akladyous/confusion-matrix-9d1ac93deb6d)
 

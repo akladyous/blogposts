@@ -1,16 +1,11 @@
 ---
-title: sentiment analysis using vader
-date: 2021-06-12
-tags: ["data science", "nlp"]
-subtitle: Uncover customer opinions with NLP and ML. Use VADER for text classification and data-driven insights.
-coverImage: "sentiment-analysis-using-vader.webp"
-draft: false
-category: "data science"
+title: Sentiment Analysis using VADER
+published: true
+tags: ["datascience", "nlp", "ai"]
+description: Uncover customer opinions with NLP and ML. Use VADER for text classification and data-driven insights.
+cover_image: https://miro.medium.com/v2/resize:fit:720/format:webp/0*1HcH_9mg3X0AqM1x.png
+series: "data science"
 ---
-
-# Sentiment Analysis using VADER
-
-![blog image](sentiment-analysis-using-vader.webp)
 
 ## Understanding Sentiment Analysis in Natural Language Processing
 
@@ -87,17 +82,17 @@ emotion the text has and also the intensity of emotion.
 
 The VADER library returns 4 values such as:
 
--   pos: The probability of the sentiment to be positive
--   neu: The probability of the sentiment to be neutral
--   neg: The probability of the sentiment to be negative
--   compound: The normalized compound score which calculates the sum of all lexicon ratings and takes values from -1 to 1
+- pos: The probability of the sentiment to be positive
+- neu: The probability of the sentiment to be neutral
+- neg: The probability of the sentiment to be negative
+- compound: The normalized compound score which calculates the sum of all lexicon ratings and takes values from -1 to 1
 
 Notice that the pos, neu and neg probabilities add up to 1. Also, the compound score is a very useful metric in case we want a single measure of sentiment.
 Typical threshold values are the following:
 
--   positive: compound score ≥ 0.05
--   neutral: compound score between -0.05 and 0.05
--   negative: compound score ≤ -0.05
+- positive: compound score ≥ 0.05
+- neutral: compound score between -0.05 and 0.05
+- negative: compound score ≤ -0.05
 
 Instantiate a new object with NLTK SentimentIntensityAnalyzer
 
@@ -112,7 +107,7 @@ Now we can create a new column to the original DataFrame to store the polarity_s
 df['score'] = df['review'].apply(lambda txt: sid.polarity_scores(txt))
 ```
 
-![blog image](sentiment-analysis-vader-1.png)
+![data frame](https://miro.medium.com/v2/resize:fit:720/format:webp/1*5qeVKnNq9tMemXNY7dM84Q.png)
 
 ```python
 df['negative'] = df['score'].apply(lambda txt: txt['neg'])
@@ -121,7 +116,7 @@ df['positive'] = df['score'].apply(lambda txt: txt['pos'])
 df['compound'] = df['score'].apply(lambda txt: txt['compound'])
 ```
 
-![blog image](sentiment-analysis-vader-2.png)
+![data frame](https://miro.medium.com/v2/resize:fit:720/format:webp/1*bhH31o4YWrwDCqm0WbewzA.png)
 
 We will follow by creating a function called “polarity_score” to calculate the accuracy test for each review in our dataframe. We can finally apply the function
 by creating a new column called “sentiment”.
@@ -141,7 +136,7 @@ df['sentiment'] = df['compound'].apply(lambda val: polarity_score(val))
 df.head()
 ```
 
-![blog image](sentiment-analysis-vader-3.png)
+![data frame](https://miro.medium.com/v2/resize:fit:720/format:webp/1*BiRux-OQPK54hR8NNMAAwA.png)
 
 ```python
 df['sentiment'].value_counts()
