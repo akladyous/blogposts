@@ -3,7 +3,7 @@ title: Understanding Scopes in Rails
 published: true
 tags: ["softwareengineering", "rails", "activemodel", "backend"]
 description: Unlock Rails Scopes Efficiently to filter, sort, and group data in your application.
-cover_image: https://share.gemini.google/xcDHwbCYTk2x
+cover_image: https://github.com/akladyous/blogposts/blob/main/understanding-scopes-in-rails/understanding-scopes-in-rails.jpeg?raw=true
 series: "software engineering"
 ---
 
