@@ -3,11 +3,9 @@ title: Web scraping — News Articles using NewsAPI.org
 published: true
 tags: ["softwareengineering", "webscraping"]
 description: Unlocking the Power of Web Scraping for Data Collection and Analysis
-coverImage: "web-scraping.webp"
+cover_image: https://github.com/akladyous/blogposts/blob/main/web-scraping/web-scraping.jpeg?raw=true
 series: "software engineering"
 ---
-
-# Web scraping — News Articles using NewsAPI
 
 ## Unlocking the Power of Web Scraping for Data Collection and Analysis
 
